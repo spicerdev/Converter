@@ -1,0 +1,14 @@
+//
+//  GVViewController.h
+//  Lab02-Team99
+//
+//  Created by X Code User on 7/15/14.
+//  Copyright (c) 2014 Joshua Spicer, Fabio Germann. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface GVViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *kilometerOutputField;
+@property (weak, nonatomic) IBOutlet UITextField *mileInputField;
+@end
